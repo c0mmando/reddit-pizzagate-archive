@@ -1,0 +1,224 @@
+<html><body><meta charset="UTF-8">
+    <div class="submission"
+        id="t3_5daow4">
+
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/jpmullet">jpmullet</a>
+            <span class="score"> | 78 points</span>
+            <span class="timestamp"> | Nov 16 2016 18:08:53</span>
+        </p>
+
+        <strong>www.podesta.com also has a /protected/ URL</strong>
+        <p><p>Not sure if this has already been brought up but there is a www.podesta.com/protected/ URL.</p>
+<p>You get a 403 Forbidden as if there is something there with access control enabled on it. </p>
+<p>If you tried to go to a site that didnt exist you get a "Page not found" page. For instance /pizza/ doesnt exist so you get the "Page not found" page. </p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5daow4">permalink</a>
+        </p>
+    </div>
+    
+    <div class="comment"
+        id="t1_da3b6jc">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/dezbos">dezbos</a>
+            <span class="score"> | 5 points</span>
+            <span class="timestamp"> | Nov 16 2016 21:33:47</span>
+        </p>
+
+        <p><p>usually protected directories themselves are inaccesible, you need to append with a file name. for instance (assuming they use php, i haven't looked): http://www.podesta.com/protected/admin.php</p>
+<p>almost forgot. here is the robots: http://www.podesta.com/robots.txt</p>
+<p>sorry, just jumping around. here is the login page if you want to play around: https://www.podesta.com/user/login</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5daow4/_/da3b6jc">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_da3i8og">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/rocket_nazi">rocket_nazi</a>
+            <span class="score"> | 4 points</span>
+            <span class="timestamp"> | Nov 17 2016 00:06:06</span>
+        </p>
+
+        <p><p>403 just means that directory indexing is not allowed. the directory itself isn't protected, you're just not allowed to list all the files in it and it lacks an index page (index.php or .html or whatever).</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5daow4/_/da3i8og">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_da3irta">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/dezbos">dezbos</a>
+            <span class="score"> | 2 points</span>
+            <span class="timestamp"> | Nov 17 2016 00:18:45</span>
+        </p>
+
+        <p><p>i know. i was glancing before leaving work. i didn't feel the need to explain directory permissions or anything like that. just a coincidence the alleged directory was named 'protected'.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5daow4/_/da3irta">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_da3izit">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/rocket_nazi">rocket_nazi</a>
+            <span class="score"> | 3 points</span>
+            <span class="timestamp"> | Nov 17 2016 00:23:56</span>
+        </p>
+
+        <p><p>it's not uncommon to have a "protected" directory on a webserver. </p>
+<p>source: my 12+ years of linux career stuff.</p>
+<p>edit - this would be fun, but it's usually locked down to localhost access only: http://www.podesta.com/server-status</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5daow4/_/da3izit">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_da3ji5b">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/dezbos">dezbos</a>
+            <span class="score"> | 2 points</span>
+            <span class="timestamp"> | Nov 17 2016 00:36:31</span>
+        </p>
+
+        <p><p>yea. i do web dev with some hosting experience. usually on windows servers though. also more familiar with the cpanel and plesk UI than the command line itself.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5daow4/_/da3ji5b">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_da3jmba">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/rocket_nazi">rocket_nazi</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 17 2016 00:39:20</span>
+        </p>
+
+        <p><p>These would be Apache error messages.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5daow4/_/da3jmba">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_da3jrnm">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/dezbos">dezbos</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 17 2016 00:42:55</span>
+        </p>
+
+        <p><p>i noticed. i really should play around with xampp more. thanks for the clarification.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5daow4/_/da3jrnm">permalink</a>
+        </p>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_da38c5x">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/KiA423469420">KiA423469420</a>
+            <span class="score"> | 3 points</span>
+            <span class="timestamp"> | Nov 16 2016 20:36:59</span>
+        </p>
+
+        <p><p>Just for giggles, I typed in www.podesta.com/protected27/ to see what would happen.  It doesn't pop a 403, but a completely different error.  That confirms that the /protected/ link goes somewhere specific.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5daow4/_/da38c5x">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_da39eqd">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/pizza-pudding">pizza-pudding</a>
+            <span class="score"> | 3 points</span>
+            <span class="timestamp"> | Nov 16 2016 20:58:24</span>
+        </p>
+
+        <p><p>Different error on this test.  Just wanted to see if it existed.    </p>
+<p>https://www.podesta.com/admin</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5daow4/_/da39eqd">permalink</a>
+        </p>
+    
+    </div>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_da3geq6">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/ack43_throway">ack43_throway</a>
+            <span class="score"> | 3 points</span>
+            <span class="timestamp"> | Nov 16 2016 23:23:52</span>
+        </p>
+
+        <p><p>They use Drupal 7, which I don't believe comes with a /protected dir by default, but yes it looks like it is an actual directory here.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5daow4/_/da3geq6">permalink</a>
+        </p>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_da32ld6">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/xgobez">xgobez</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 16 2016 18:41:17</span>
+        </p>
+
+        <p><p>I.E. lists the most likely cause for the webpage not displaying is that you have to log in. Hm.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5daow4/_/da32ld6">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_da33t6m">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/jpmullet">jpmullet</a>
+            <span class="score"> | 2 points</span>
+            <span class="timestamp"> | Nov 16 2016 19:05:41</span>
+        </p>
+
+        <p><p>There's the possibility the permissions were changed on the server in haste to take it down. So the service that runs the webserver doesn't have read permission on those files.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5daow4/_/da33t6m">permalink</a>
+        </p>
+    
+    </div>
+    
+    </div>
+    
+    </body></html>

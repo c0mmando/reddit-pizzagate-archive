@@ -1,0 +1,736 @@
+<html><head><link rel="stylesheet" href="../style.css"></head><body><meta charset="UTF-8">
+    <div class="submission"
+        id="t3_5cg181">
+
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/-5677-">-5677-</a>
+            <span class="score"> | 51 points</span>
+            <span class="timestamp"> | Nov 11 2016 18:29:13</span>
+        </p>
+
+        <strong>[Steganography] Possible communication through PowerPoint presentations?</strong>
+        <p><p>Quoting /u/boomerang_1 here. 
+Here is what he posted.
+"Do you guys know about the numerous strange powerpoints sent to Podesta? Look, this is one of MANY: https://wikileaks.org/podesta-emails/emailid/35594</p>
+<p>Why would Podesta be sent powerpoint slides of flowers?</p>
+<p>Here's one of just exotic birds:https://wikileaks.org/podesta-emails/emailid/53544</p>
+<p>There are LOTS more sent from that email address. I know 4chan was looking into steganography and managed to decrypt a few images from the Comet site, but is anyone looking into these powerpoints???"</p>
+<p>These can definitely be a way of communicating through the use of steganography, but it can also be a dead-end lead. If someone knows how to search for hidden files/messages, this can definitely be a good place to look.</p>
+<p>If someone know where or who can decode this, please help by spreading this, increasing awareness is our #1 tool.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181">permalink</a>
+        </p>
+    </div>
+    
+    <div class="comment"
+        id="t1_d9wazof">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/JangoTheJanitor">JangoTheJanitor</a>
+            <span class="score"> | 11 points</span>
+            <span class="timestamp"> | Nov 11 2016 20:29:35</span>
+        </p>
+
+        <p><p>Ok, so using the Linux tool PPSEI (https://sourceforge.net/projects/ppsei/), I extracted all images contained inside these Powerpoint files.  Looks like they're all .jpgs with one .gif showing a crude "the end" sign.  Now these should be examined manually, which is my next step.</p>
+<p>I've zipped them all and uploaded them here:  (http://s000.tinyupload.com/index.php?file_id=44337563148820313863).  May want to find a more permanent host as this is a temporary file sharing service, but I wanted to get it out there so other people can play with it as well.  Happy hunting.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wazof">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wclbj">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/JangoTheJanitor">JangoTheJanitor</a>
+            <span class="score"> | 14 points</span>
+            <span class="timestamp"> | Nov 11 2016 21:04:27</span>
+        </p>
+
+        <p><p>I ran stegdetect on the contents of the above archive (quick pass, no arguments - just #stegdetect *.jpg withinin the directory) and got the following results:</p>
+<pre><code>podesta-1.pps_01.jpg : jphide(*)
+podesta-1.pps_02.jpg : jphide(*)
+podesta-1.pps_03.jpg : negative
+podesta-1.pps_04.jpg : negative
+podesta-1.pps_05.jpg : negative
+podesta-1.pps_06.jpg : negative
+podesta-1.pps_07.jpg : negative
+podesta-1.pps_08.jpg : negative
+podesta-1.pps_09.jpg : negative
+podesta-1.pps_10.jpg : negative
+podesta-1.pps_11.jpg : negative
+podesta-1.pps_12.jpg : negative
+podesta-1.pps_13.jpg : negative
+podesta-1.pps_14.jpg : negative
+podesta-1.pps_15.jpg : negative
+podesta-1.pps_16.jpg : negative
+podesta-1.pps_17.jpg : negative
+podesta-1.pps_18.jpg : negative
+podesta-1.pps_19.jpg : negative
+podesta-1.pps_20.jpg : negative
+podesta-1.pps_21.jpg : negative
+podesta-1.pps_22.jpg : negative
+podesta-1.pps_23.jpg : negative
+podesta-1.pps_24.jpg : negative
+podesta-1.pps_25.jpg : negative
+podesta-1.pps_26.jpg : negative
+podesta-1.pps_27.jpg : negative
+podesta-1.pps_28.jpg : negative
+podesta-1.pps_29.jpg : negative
+podesta-1.pps_30.jpg : negative
+podesta-1.pps_31.jpg : negative
+podesta-1.pps_32.jpg : negative
+podesta-1.pps_33.jpg : negative
+podesta-1.pps_34.jpg : negative
+podesta-1.pps_35.jpg : negative
+podesta-1.pps_36.jpg : negative
+podesta-1.pps_37.jpg : negative
+podesta-1.pps_38.jpg : negative
+podesta-1.pps_39.jpg : negative
+podesta-1.pps_41.jpg : negative
+podesta-1.pps_42.jpg : negative
+podesta-1.pps_43.jpg : negative
+podesta-1.pps_44.jpg : negative
+podesta-2.pps_01.jpg : negative
+podesta-2.pps_02.jpg : negative
+podesta-2.pps_03.jpg : negative
+podesta-2.pps_04.jpg : negative
+podesta-2.pps_05.jpg : negative
+podesta-2.pps_06.jpg : negative
+podesta-2.pps_07.jpg : negative
+podesta-2.pps_08.jpg : skipped (false positive likely)
+podesta-2.pps_09.jpg : negative
+podesta-2.pps_10.jpg : negative
+podesta-2.pps_11.jpg : outguess(old)(**)
+podesta-2.pps_12.jpg : negative
+podesta-2.pps_13.jpg : negative
+podesta-2.pps_14.jpg : negative
+podesta-2.pps_15.jpg : negative
+podesta-2.pps_16.jpg : negative
+podesta-2.pps_17.jpg : negative
+podesta-2.pps_18.jpg : negative
+podesta-2.pps_19.jpg : negative
+podesta-2.pps_20.jpg : negative
+podesta-2.pps_21.jpg : negative
+podesta-2.pps_22.jpg : negative
+podesta-2.pps_23.jpg : negative
+podesta-2.pps_24.jpg : negative
+podesta-2.pps_25.jpg : negative
+podesta-2.pps_26.jpg : negative
+podesta-2.pps_27.jpg : negative
+podesta-2.pps_28.jpg : negative
+podesta-2.pps_29.jpg : negative
+</code></pre>
+<p>So based on this - which is imperfect automatic steg detection - I'm going to give more attention to podesta-1.pps_01.jpg, podesta-1.pps_02.jpg, podesta-2.pps_08.jpg, and podesta-2.pps_11.jpg.  It's not conclusive proof of anything yet, but it's interesting that these files apparently trip stegdetect's detection for specific algorithms.  False positives happen, so I'm not banking on anything <em>yet</em>.  Technically you aren't supposed to be able to find a jphide file unless you have the original to compare to, but to my knowledge old versions of Outguess (v1) are detectable so I'll be looking at that especially critically for the time being.</p>
+<p>To my knowledge, a decryption key / password needs to be provided to Outguess in order to properly decrypt the file.  Perhaps there's something in each of the Chinese emails (like "peony") that could be the password, assuming this isn't a false positive.</p>
+<p>On that note, this is potentially interesting: in the second email (with the wild birds .pps), the email body is " ¤ñÁlÂù­¸±¡³Ì¿@(Take two to Tango)".  A Google search for " ¤ñÁlÂù­¸±¡³Ì¿@" reveals only one other page with this phrase, a usenet archive (http://www.theusenetarchive.com/usenet-message-big5-b-ehh4v-mnwatzp9qmycs5oukgmjaxmdaymje-53603399.htm).  The author is listed as "Lo.Gael Clichy@kamsingkuma mode <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#103;&#97;&#101;&#108;&#64;&#99;&#108;&#105;&#99;&#104;&#121;&#46;&#99;&#111;&#109;">&#103;&#97;&#101;&#108;&#64;&#99;&#108;&#105;&#99;&#104;&#121;&#46;&#99;&#111;&#109;</a>."  Note the author of the emails to Podesta is "johnson_lo@mail2000.com.tw" - the "Lo" is a commonality.  Might be worth looking into this individual further if it hasn't been done.</p>
+<p>Edit:  Found some more seemingly random pictures (of Antarctica this time) from Lo.  (https://wikileaks.org/podesta-emails/emailid/15503).  Title is 冰山在快速溶解 (The iceberg dissolves rapidly).  Going to run these through the same procedure as described above.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wclbj">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wlaxa">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/OcculusPrime">OcculusPrime</a>
+            <span class="score"> | 4 points</span>
+            <span class="timestamp"> | Nov 12 2016 00:34:12</span>
+        </p>
+
+        <p><p>Running stegbreak on podesta-1.pps_01.jpg now, will post results.</p>
+<p>EDIT: Simple dictionaries didn't turn anything up. I'm running it against larger crack dictionaries but it'll take more time.</p>
+<p>Proof:</p>
+<pre><code>D:\Downloads\stegdetect04_cis8630&gt;stegbreak -r rules.ini -f meddict.dic
+"D:\Downloads\PodestaPPS_ExtractedImages_PPSEI\PodestaPPS_ExtractedImages_PPSEI\podesta-1.pps_02.jpg"
+Loaded 1 files...
+D:\Downloads\PodestaPPS_ExtractedImages_PPSEI\PodestaPPS_ExtractedImages_PPSEI\podesta-1.pps_02.jpg : negative
+Processed 1 files, found 0 embeddings.
+Time: 134 seconds: Cracks: 2423746,  18087.7 c/s
+
+D:\Downloads\stegdetect04_cis8630&gt;stegbreak -r rules.ini -f realhuman_phill.txt
+"D:\Downloads\PodestaPPS_ExtractedImages_PPSEI\PodestaPPS_ExtractedImages_PPSEI\podesta-1.pps_01.jpg"
+Loaded 1 files...
+Status:   1.789%,  17869.9 c/s: kutzin
+Status:   1.754%,  17927.0 c/s: mtvfkyls29
+</code></pre>
+<p>EDIT: Nothing was found on these, but my computer restarted I guess last night due to updates. I checked it last night to verify they completed with no results, but I didn't have time to post them.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wlaxa">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wr9wk">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/JangoTheJanitor">JangoTheJanitor</a>
+            <span class="score"> | 3 points</span>
+            <span class="timestamp"> | Nov 12 2016 03:12:00</span>
+        </p>
+
+        <p><p>My gut tells me that if any of the files is actually stegged, it's going to be podesta-2.pps_11.jpg.  I think it's odd that stegdetect would return a positive on something using the jphide algorithm without an unmodified source file.</p>
+<p>Try using the relevant emails with content from that email added to the dictionary.  The podesta-1 files in the zip are from the flowers/peony email, the podesta-2 ones are from the wild birds (Tango) email.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wr9wk">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wvfi3">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/OcculusPrime">OcculusPrime</a>
+            <span class="score"> | 3 points</span>
+            <span class="timestamp"> | Nov 12 2016 05:20:01</span>
+        </p>
+
+        <p><p>I can run those next, the first two files probably won't be done until the AM.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wvfi3">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wvk4q">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/JangoTheJanitor">JangoTheJanitor</a>
+            <span class="score"> | 3 points</span>
+            <span class="timestamp"> | Nov 12 2016 05:24:31</span>
+        </p>
+
+        <p><p>No worries.  Glad to see someone else on top of this as well.  I should have been in bed a few hours ago but right now I'm concentrating on the attachment from (https://wikileaks.org/podesta-emails/emailid/48897).  Definitely a corrupt PNG, and that's not something that usually happens with iPhone screenshots.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wvk4q">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_da0dfsb">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/newfoundland_urth">newfoundland_urth</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 14 2016 21:41:48</span>
+        </p>
+
+        <p><p>Do you happen to know what embedding schemes stegdetect is good for?  I keep seeing threads about steganalyzed images from 4chan, but I can't validate that they are true.  I have been pouring through the ppt emails from johnson_lo, and just noticed your post, or rather the content of your post.  I posted a mundane question about the powerpoints yesterday after searching "powerpoint", but I didn't catch that you were steganalyzing these too.  I have no idea what the current/popular steganographic methods are, but I believe (if memory serves, I'm at work) that these emails are from a few years ago.  It would be a good idea to confirm that stegdetect is good for whatever embedding methods were current at the time of their sending.  I think we are on the right track, these emails are cryptic and even reverse image searching some of the images lead back to pizza places (see my most recent post).  We just need to narrow down the most effective stegoanalysis method for the job.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/da0dfsb">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_da0g3fl">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/JangoTheJanitor">JangoTheJanitor</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 14 2016 22:37:54</span>
+        </p>
+
+        <p><p>Yeah, stegdetect is old old old old.  It hasn't been updated for years, and there really aren't many other all-in-one automated detectors for it that I've used.  On an academic level it boils down to statistical analysis and some very detailed manual examination on the hex level, and if they're doing something like least-significant bit replacement, it's almost unbreakable by design unless you have the source image to compare to.</p>
+<p>Thankfully, the algorithms that would have been used at the time of these emails are covered by stegdetect.  I'm feeling that the jphide hits are false positives because theoretically you shouldn't be able to detect jphide without the original source image, but the outguess v1 seems like the best bet at a positive detection so far.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/da0g3fl">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_da0giu4">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/newfoundland_urth">newfoundland_urth</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 14 2016 22:47:12</span>
+        </p>
+
+        <p><p>Yeah I am just processing the images for the powerpoints in older steganalysis algos (for which I have the source code) and looking for the image through an image search to compare.  Eventually I will turn it into a training set for a machine learning algo and see if we can crack the embed method (if there), but it is going to take a lot of work to get there.  Interestingly, every time I do a google image source from these powerpoints, I find a sketchy link just on google -- it is fucking uncanny.  I am scared man.  There appears to be a heavy CTR presence and you and pizzathrowaway777 are the only mods that I have personally seen contributing positively to this investigation.  I should add that I am not familiar with outguess...</p>
+<p>edit: added last sentence about outguess</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/da0giu4">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_da0gvbo">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/JangoTheJanitor">JangoTheJanitor</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 14 2016 22:54:38</span>
+        </p>
+
+        <p><p>To be frank, I don't know where half of these other mods came from.  Seeing the modmail I can say that most of them seem to be genuinely concerned with the well-being of the sub, and I'm not seeing a lot of censorship from that level, but I'm also not totally comfortable with the way things happened - pizzathrowaway777 appoints a bunch of people because he's worried for his safety, disappears, and now the list has over doubled over a weekend.  I received a PM from another user pointing out that one in particular - who I will not list because I don't want to stir the pot - has mod history on other subs that are almost always CTR controlled.</p>
+<p>It goes without saying but I don't feel like we have any sense of security on this platform.</p>
+<p>But to your other point, I've also found sketchy stuff while reverse image searching some of these.  The peonies appear on some really bizarrely formatted Chinese blogs that I still don't understand what they're talking about (happiness and business empowerment or something like that).  I'm trying to stick to the primary source stuff for now because I know that peonies are a big Chinese culture symbol and it could all be a red herring, but I'd be lying if I said it wasn't really weird.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/da0gvbo">permalink</a>
+        </p>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_da0vwno">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/lo-lite">lo-lite</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 15 2016 04:50:02</span>
+        </p>
+
+        <p><p>Props to you and /u/jangothejanitor for this stuff. Probably a lot of interested people unable to do this type of stuff (like me) keeping eyes on posts like your guys' for any update on the encrypted images theory. </p>
+<p>I've been following the strange Asian sites from these emails and from searching addresses typed within the slides for awhile now, and I'm still lost on what any of it means </p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/da0vwno">permalink</a>
+        </p>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_da0sn0f">
+        <p class="userinfo">
+            [deleted]
+            <span class="score"> | 3 points</span>
+            <span class="timestamp"> | Nov 15 2016 03:26:45</span>
+        </p>
+
+        <p><p>[deleted]</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/da0sn0f">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_da1057k">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/kirotheone">kirotheone</a>
+            <span class="score"> | 3 points</span>
+            <span class="timestamp"> | Nov 15 2016 07:22:43</span>
+        </p>
+
+        <p><p>Plz more, this is interesting. Reminds me Of "Cicada 3301" they posted on 4chan to get people to crack some clues they made up, mostly using this method, seeing patterns, crack passwords etc.</p>
+<p>People that won the Cicada 3301 game, was never heard Of, so nobody know what people was behind it all..</p>
+<p>https://en.m.wikipedia.org/wiki/Cicada_3301</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/da1057k">permalink</a>
+        </p>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_da15b9i">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/partyake">partyake</a>
+            <span class="score"> | 2 points</span>
+            <span class="timestamp"> | Nov 15 2016 12:03:19</span>
+        </p>
+
+        <p><p>Hey man not a computer scientist but the Pixelated images look like pixel masking. I remember a program that was pretty popular 
+( especially at the time of these emails cant remember for the life of me what its called) on 4 chan back in the day where you could download an image hit buttons to modify the picture in a specific order until the image would look normal and completely change. I also remember that it was quite a popular program among the more degenerative people on /B/ for sharing Child porn .</p>
+<p>Edit: the program was called G mask</p>
+<p>again not a computer expert just my 2 cents and something i noticed</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/da15b9i">permalink</a>
+        </p>
+    
+    </div>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_d9wfata">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/No8145">No8145</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 11 2016 22:05:31</span>
+        </p>
+
+        <p><p>If you need the originals to compare to, could they be found using a reverse image search?</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wfata">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wfm0z">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/JangoTheJanitor">JangoTheJanitor</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 11 2016 22:12:41</span>
+        </p>
+
+        <p><p>Yes, quite possibly, although the originals that have been extracted from the powerpoint files appear to be quite small.  I ran the first peony image through a reverse Google Images search, and I found three sites where the picture also appears - all Chinese sites.</p>
+<p>http://www.360doc.com/content/11/0402/05/5651670_106562219.shtml</p>
+<p>http://www.360doc.com/content/13/0324/08/7001798_273550419.shtml</p>
+<p>http://kuozins.pixnet.net/blog/post/27037915-%E5%A5%B3%E4%BA%BA%E6%B0%B8%E4%BF%9D%E9%9D%92%E6%98%A5%E3%84%89%E6%92%87%E6%AD%A5</p>
+<p>Given the significance of peonies to Chinese culture, this could all be a red herring, so I'll keep focusing on the primary-source files for the time being.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wfm0z">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wsc02">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/SplitFire">SplitFire</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 12 2016 03:42:15</span>
+        </p>
+
+        <p><p>Many of the bird images also appear in this slideshow (published 2010)...http://www.slideshare.net/DIOGYU/flying-birds-szll-madarak</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wsc02">permalink</a>
+        </p>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_d9wm7bp">
+        <p class="userinfo">
+            [deleted]
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 12 2016 00:57:22</span>
+        </p>
+
+        <p><p>[deleted]</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wm7bp">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wr5p8">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/JangoTheJanitor">JangoTheJanitor</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 12 2016 03:08:51</span>
+        </p>
+
+        <p><p>Like a shopping list!  Couldn't hurt.  Thank you - good find.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wr5p8">permalink</a>
+        </p>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_d9w9rk5">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/JangoTheJanitor">JangoTheJanitor</a>
+            <span class="score"> | 9 points</span>
+            <span class="timestamp"> | Nov 11 2016 20:03:18</span>
+        </p>
+
+        <p><p>From the body of emailID 35594, the sender ends the email with the same sentence twice:</p>
+<p>邀請大家來參加派對吧！ 邀請大家來參加派對吧！</p>
+<p>This translates to "Invite everybody to the party!  Invite everybody to the party!"  The sender appears to be talking about the New Year, so it's probably related to that, but also note the title of the email is " 牡丹花": which translates to "peony" and is usually specifically used to refer to Paeonia suffruticosa.  Yes, flowers.  I wonder if there's a cultural tie between the peony flower and the New Year?  Doing some research now.</p>
+<p>I'm digging into these powerpoints now as well.  If anybody has links to other curious ones, post them here as I don't have a lot of time to sift through Wikileaks if the information is already available.</p>
+<p>Edit:  Looks like Paeonia suffruticosa has always been of special significance in Chinese culture.  At various points it has been the national flower of China, and according to a 2014 article from the Jade Institute is called the King of Flowers and symbolizes "honor, wealth, and aristocracy, as well as love, affection, and feminine beauty."  It has also been used in Chinese medicine for around 2000 years.  Not sure if it's relevant, but interesting nonetheless.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9w9rk5">permalink</a>
+        </p>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_d9w6gmn">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/JangoTheJanitor">JangoTheJanitor</a>
+            <span class="score"> | 5 points</span>
+            <span class="timestamp"> | Nov 11 2016 18:52:51</span>
+        </p>
+
+        <p><p>If the images are embedded in the powerpoint in an uncompressed format, I'd recommend exporting them and taking a look at each image individually as opposed to the powerpoint file itself.  My initial guess is that somebody thought a powerpoint would be a good innocent-looking container to send a lot of this data, which could have other data hiding inside of it.</p>
+<p>I'll take a look when I can.  Good thinking.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9w6gmn">permalink</a>
+        </p>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_d9whjc8">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/antisoros">antisoros</a>
+            <span class="score"> | 3 points</span>
+            <span class="timestamp"> | Nov 11 2016 22:58:59</span>
+        </p>
+
+        <p><p>There is definitely hidden data in the powerpoint images. I started with a random image from a random powerpoint (The yellow ferrari in https://wikileaks.org/podesta-emails/emailid/23851). Opened it in a hex editor and there is data attached after the EoF marker of the  jpg image. I suspect it is encrypted (with the subject as key?) Haven't managed to determine format or cipher yet of the attached data.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9whjc8">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wky8b">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/OcculusPrime">OcculusPrime</a>
+            <span class="score"> | 3 points</span>
+            <span class="timestamp"> | Nov 12 2016 00:25:08</span>
+        </p>
+
+        <p><p>Checked yellow Ferrari with xsteg and it came back negative.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wky8b">permalink</a>
+        </p>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_d9wjcy0">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/JangoTheJanitor">JangoTheJanitor</a>
+            <span class="score"> | 2 points</span>
+            <span class="timestamp"> | Nov 11 2016 23:44:31</span>
+        </p>
+
+        <p><p>All of these are related to this johnson_lo account.  I've found one file that may use the outguess algorithm (see my history) which I'm currently trying.</p>
+<p>I notice that all the johnson_lo emails have some cryptic phrase associated in it, usually with the title (Peony, takes two to Tango, the iceberg thing, etc.)  I am guessing that whatever this is, it uses the same formula (like a password in the title and the same algorithm in the data).  Hopefully if we crack one we crack them all.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wjcy0">permalink</a>
+        </p>
+    
+    </div>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_d9wh4o4">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/alfy26">alfy26</a>
+            <span class="score"> | 2 points</span>
+            <span class="timestamp"> | Nov 11 2016 22:49:03</span>
+        </p>
+
+        <p><blockquote>
+<p>I know 4chan was looking into steganography and managed to decrypt a few images from the Comet site</p>
+</blockquote>
+<p>Do you have a link? If we can boil this down to a likely software/algorithm used we'll have more chance finding something. Attacking properly-implemented steganography is hard if the password is strong (good open source tools are readily available). </p>
+<p>We can use popular steganography methods, guessing/brute forcing passwords, and see if we get a coherent output. The first I'll try will be "pizza", "cheese pizza", "pasta", "walnut" and "hotdog".</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wh4o4">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wjg4r">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/JangoTheJanitor">JangoTheJanitor</a>
+            <span class="score"> | 2 points</span>
+            <span class="timestamp"> | Nov 11 2016 23:46:41</span>
+        </p>
+
+        <p><p>From my work on this, my gut tells me that the password will be related to the contents of the email itself.  Attempting to use "Tango" with Outguess on podesta-2.pps_11.jpg in the zip file I put together gave me a buffer overflow during the process while everything else I tried gave me a null result, which seems strange to me.  I'm going to try other implementations of the outguess algorithm, maybe some windows tools (which would be more likely what these people would use, none strike me as hardcore Linux users).  It's a hunch so far but I'll pursue it further.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wjg4r">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wl4ko">
+        <p class="userinfo">
+            [deleted]
+            <span class="score"> | 2 points</span>
+            <span class="timestamp"> | Nov 12 2016 00:29:41</span>
+        </p>
+
+        <p><p>[deleted]</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wl4ko">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wl7tw">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/JangoTheJanitor">JangoTheJanitor</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 12 2016 00:31:59</span>
+        </p>
+
+        <p><p>I'll give it a shot.  Gotta find a colleague with a Mac to borrow; I don't allow them in my office unless they're in pieces. :P</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wl7tw">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wm07v">
+        <p class="userinfo">
+            [deleted]
+            <span class="score"> | 5 points</span>
+            <span class="timestamp"> | Nov 12 2016 00:52:16</span>
+        </p>
+
+        <p><p>[deleted]</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wm07v">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wr6hp">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/JangoTheJanitor">JangoTheJanitor</a>
+            <span class="score"> | 2 points</span>
+            <span class="timestamp"> | Nov 12 2016 03:09:26</span>
+        </p>
+
+        <p><p>I'll see if I can "acquire" one of those then.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wr6hp">permalink</a>
+        </p>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_d9wiv8x">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/-5677-">-5677-</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 11 2016 23:32:16</span>
+        </p>
+
+        <p><p>I wish I had the links, I've been searching for them with no luck. I'll keep on searching tho. </p>
+<p>I'll keep you informed.</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wiv8x">permalink</a>
+        </p>
+    
+    </div>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_d9wj84v">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/dogsforjesus">dogsforjesus</a>
+            <span class="score"> | 2 points</span>
+            <span class="timestamp"> | Nov 11 2016 23:41:11</span>
+        </p>
+
+        <p><p>Junk mail card from the Illuminati card game:
+https://reptilianilluminati.files.wordpress.com/2014/01/illuminati-card-junk-mail.jpg</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wj84v">permalink</a>
+        </p>
+    
+    <div class="comment"
+        id="t1_d9wl0qa">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/greengrapesx">greengrapesx</a>
+            <span class="score"> | 2 points</span>
+            <span class="timestamp"> | Nov 12 2016 00:26:55</span>
+        </p>
+
+        <p><p>And I'm dead now. I sometimes feel like I've been led to this topic. </p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9wl0qa">permalink</a>
+        </p>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_d9x7ik8">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/libertyant">libertyant</a>
+            <span class="score"> | 2 points</span>
+            <span class="timestamp"> | Nov 12 2016 15:10:24</span>
+        </p>
+
+        <p><p>this is fucking crazy lol. </p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9x7ik8">permalink</a>
+        </p>
+    
+    </div>
+    
+    </div>
+    
+
+
+    <div class="comment"
+        id="t1_d9yr0mx">
+        <p class="userinfo">
+            <a href="https://www.reddit.com/u/newfoundland_urth">newfoundland_urth</a>
+            <span class="score"> | 1 points</span>
+            <span class="timestamp"> | Nov 13 2016 19:18:37</span>
+        </p>
+
+        <p><p>https://wikileaks.org/podesta-emails/emailid/53064</p>
+<p>Did you guys see this ppt that is a series of weird merry christmas images?</p></p>
+
+        <p class="toolbar">
+            <a href="https://www.reddit.com/r/pizzagate/comments/5cg181/_/d9yr0mx">permalink</a>
+        </p>
+    
+    </div>
+    
+    </body></html>

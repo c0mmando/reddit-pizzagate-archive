@@ -1,0 +1,91 @@
+/* Global styles */
+body {
+  background: #000;
+  color: #ccc;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  color: #00ff90;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0ff;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #00ff90;
+}
+
+/* Dark Hacker Theme - Modified Dark Mode Table Styling */
+table.sortable {
+  border-spacing: 0;
+  border: 1px solid #1a1a1a;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.sortable th, 
+table.sortable td {
+  text-align: left;
+  padding: 6px 8px;
+  width: 100px;
+  border: solid;
+  border-color: #333;
+}
+
+table.sortable th {
+  border-width: 0px 1px 1px 1px;
+  background-color: #2b2b2b;
+  color: #00ff90;
+  font-weight: bold;
+}
+
+table.sortable td {
+  border-width: 0px 1px 0px 1px;
+  color: #ccc;
+}
+
+table.sortable tr.odd td {
+  background-color: #1e1e1e;
+}
+
+table.sortable tr.even td {
+  background-color: #151515;
+}
+
+table.sortable tr.sortbottom td {
+  border-top: 1px solid #333;
+  background-color: #2b2b2b;
+  font-weight: bold;
+  color: #00ff90;
+}
+
+table.sortable tr:hover td {
+  background-color: #222;
+}
+
+/* Comment and Submission styling */
+.submission {
+  border: 4px solid #00f;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.comment {
+  padding-left: 20px;
+  margin: 4px;
+  border: 2px solid #00ff90;
+}
+
+/* Additional styling for user info inside submissions and comments */
+.userinfo {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
