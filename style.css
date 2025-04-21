@@ -89,3 +89,25 @@ table.sortable tr:hover td {
   font-size: 14px;
   margin-bottom: 8px;
 }
+
+/* Download Buttons */
+.download-buttons {
+text-align: center;
+margin: 1.5rem 0;
+}
+
+.download-buttons a {
+display: inline-block;
+margin: 0.5rem;
+padding: 0.8rem 1.5rem;
+background-color: #00ff90;
+color: #000;
+text-decoration: none;
+border-radius: 4px;
+transition: background-color 0.3s ease;
+}
+
+.download-buttons a:hover {
+background-color: #0ff;
+color: #000; /* explicitly set a contrasting text color */
+}

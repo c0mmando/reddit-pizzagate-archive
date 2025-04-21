@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap_index.xml
