@@ -1,43 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" ?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap1.xml</loc>
-    <lastmod>2025-04-21T06:27:57Z</lastmod>
+    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap_1.xml</loc>
+    <lastmod>2025-04-28T07:14:31</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap2.xml</loc>
-    <lastmod>2025-04-21T06:27:57Z</lastmod>
+    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap_2.xml</loc>
+    <lastmod>2025-04-28T07:14:31</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap3.xml</loc>
-    <lastmod>2025-04-21T06:27:57Z</lastmod>
+    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap_3.xml</loc>
+    <lastmod>2025-04-28T07:14:31</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap4.xml</loc>
-    <lastmod>2025-04-21T06:27:57Z</lastmod>
+    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap_4.xml</loc>
+    <lastmod>2025-04-28T07:14:31</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap5.xml</loc>
-    <lastmod>2025-04-21T06:27:57Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap6.xml</loc>
-    <lastmod>2025-04-21T06:27:57Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap7.xml</loc>
-    <lastmod>2025-04-21T06:27:57Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap8.xml</loc>
-    <lastmod>2025-04-21T06:27:57Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap9.xml</loc>
-    <lastmod>2025-04-21T06:27:57Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap10.xml</loc>
-    <lastmod>2025-04-21T06:27:57Z</lastmod>
+    <loc>https://reddit.pizzagate.hackliberty.org/sitemaps/sitemap_5.xml</loc>
+    <lastmod>2025-04-28T07:14:31</lastmod>
   </sitemap>
 </sitemapindex>

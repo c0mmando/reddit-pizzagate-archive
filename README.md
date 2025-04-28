@@ -190,6 +190,6 @@ If you prefer to view the archive offline (e.g., without a web server), you can 
 
 - Ensure file permissions allow nginx (or your local HTTP server) to read the archive files.
 - Changes to GitHub Pages may take a short while to propagate.
-- Before serving the archive publicly, review any legal or privacy considerations regarding its content.
+- Before serving the archive publicly, change the hard coded SEO and html meta tags
 
 This README provides instructions for downloading, cloning, hosting (via GitHub Pages or nginx), and viewing the /r/pizzagate archive offline. If you have any issues or need further assistance, please refer to the respective hosting platform's documentation.
